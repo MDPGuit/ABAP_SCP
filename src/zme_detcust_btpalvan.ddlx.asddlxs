@@ -1,0 +1,27 @@
+@Metadata.layer: #CORE
+annotate view ZCDS_DETCUST_BTPALVAN with
+{
+  @UI.lineItem: [{
+                    position: 10,
+                    importance: #HIGH }]
+  Nombre;
+
+  @UI.lineItem: [{
+                    position: 20,
+                    importance: #HIGH }]
+  Apellidos;
+
+  @UI.lineItem: [{
+                    position: 30,
+                    importance: #HIGH,
+                    label: 'Correo electrónico' }]
+  Email;
+
+  @UI.lineItem: [{
+                    position: 40,
+                    importance: #HIGH,
+                    label: 'Tipo Contrato' }]
+
+  TipoContrato;
+
+}

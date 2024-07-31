@@ -1,0 +1,5 @@
+@EndUserText.label: 'Renting'
+define service ZSD_RENTING_BTPALVAN {
+  expose ZCDS_RENTING_BTPALVAN as Renting;
+  expose ZCDS_DETCUST_BTPALVAN as Customer;
+}
